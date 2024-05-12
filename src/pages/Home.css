@@ -1,0 +1,10 @@
+.products{
+    margin-top: 85px;
+    width: 100%;
+    display: flex;
+    gap: 30px;
+    padding: 27px 155px 20px 155px;
+    justify-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
