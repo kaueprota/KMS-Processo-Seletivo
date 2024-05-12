@@ -9,9 +9,9 @@ interface CloseButtonProps {
 }
 
 const CloseButton: React.FC<CloseButtonProps> = ({ size, top, left, onClick}) => {
-    const [sizeButton, setSizeButton] = useState(size);
-    const [topButton, setTopButton] = useState(top);
-    const [leftButton, setLeftButton] = useState(left);
+    const [sizeButton] = useState(size);
+    const [topButton] = useState(top);
+    const [leftButton] = useState(left);
   
     return (
       <CloseStyled size={sizeButton} top={topButton} left={leftButton} onClick={onClick}></CloseStyled>
