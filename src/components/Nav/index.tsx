@@ -1,6 +1,6 @@
 import { NavStyled } from "./NavStyled.js.ts"
 import cartImg from "../../assets/images/Cart.svg"
-import React, { act, useState } from 'react';
+import {useState } from 'react';
 import CardsStyled from "../CardsCart/index.tsx";
 import CloseButton from "../UI/CloseButton"
 

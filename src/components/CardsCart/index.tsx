@@ -3,9 +3,13 @@ import appleImg from "../../assets/images/apple-watch.png"
 import CloseButton from "../UI/CloseButton"
 
 export default function CardsCart(){
+    const click = () =>{
+        console.log("teste")
+    }
+
     return(
         <CardsStyled>
-            <CloseButton size={25} top={-11} left={-6}></CloseButton>
+            <CloseButton size={25} top={-11} left={-6} onClick={click}></CloseButton>
             <img src={appleImg} alt="" />
             <p className="productName">Apple Watch Series 4 GPS</p>
             <div className="quantity-input">
